@@ -1,6 +1,5 @@
 package ies.tsds.chatapp;
 
-import androidx.activity.ComponentActivity;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -27,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         b1=findViewById(R.id.login);
-        b2=findViewById(R.id.signin);
+        b2=findViewById(R.id.signup);
         t1=findViewById(R.id.ed);
         t2=findViewById(R.id.ed2);
 

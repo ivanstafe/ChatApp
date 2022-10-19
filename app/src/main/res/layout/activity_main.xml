@@ -47,7 +47,7 @@
             android:text="Inciar Sesión" />
 
         <Button
-            android:id="@+id/signin"
+            android:id="@+id/signup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Registrarse" />
