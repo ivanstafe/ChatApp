@@ -7,6 +7,10 @@
     <string name="Email">Correo Electrónico</string>
     <string name="Contraseña">Contraseña</string>
     <string name="Bienvenido">Bienvenido a</string>
-
+    <string name="Registro_exitoso">Registro exitoso!</string>
+    <string name="Error_al_registrarse">Error al registrarse</string>
+    <string name="Bienvenido">Bienvenido nuevamente!</string>
+    <string name="Error">A ocurrido un error</string>
+    <string name="Mensaje_enviado">Mensaje enviado </string>
 
 </resources>

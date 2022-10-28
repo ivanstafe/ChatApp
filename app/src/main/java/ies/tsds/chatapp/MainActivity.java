@@ -40,14 +40,14 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
-                            Toast.makeText(MainActivity.this, "Bienvenido nuevamente", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MainActivity.this, R.string.Bienvenido, Toast.LENGTH_SHORT).show();
                             Intent a = new Intent(MainActivity.this,msg.class);
                             startActivity(a);
                             finish();
 
                         }else{
 
-                            Toast.makeText(MainActivity.this, "Error al ingresar", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MainActivity.this, R.string.Error, Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
@@ -62,13 +62,13 @@ public class MainActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
 
-                            Toast.makeText(MainActivity.this, "Registro exitoso", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MainActivity.this, R.string.Registro_exitoso, Toast.LENGTH_SHORT).show();
                             Intent a = new Intent(MainActivity.this, msg.class);
                             startActivity(a);
                             finish();
                         } else {
 
-                            Toast.makeText(MainActivity.this, "Error al registrarse", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MainActivity.this, R.string.Error_al_registrarse, Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
