@@ -41,7 +41,8 @@ public class msg extends AppCompatActivity {
             @Override
             public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
 
-                Toast.makeText(msg.this, R.string.Mensaje_enviado+snapshot.getValue().toString(), Toast.LENGTH_SHORT).show();
+//                Toast.makeText(msg.this, "Mensaje enviado"+snapshot.getValue().toString(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(msg.this, R.string.Mensaje_enviado, Toast.LENGTH_SHORT).show();
                 al.add(snapshot.getValue().toString());
                 ArrayAdapter adapter = new ArrayAdapter(msg.this, android.R.layout.simple_list_item_1,al);
                 lv.setAdapter(adapter);
