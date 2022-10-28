@@ -32,7 +32,7 @@
                 android:layout_margin="5sp"
                 android:layout_weight="1"
                 android:ems="10"
-                android:hint="Mensaje"
+                android:hint="@string/Mensaje"
                 android:inputType="textPersonName"
                 android:padding="5sp"
                 android:textColorHint="#9A000000" />
@@ -42,7 +42,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Enviar" />
+                android:text="@string/Enviar" />
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

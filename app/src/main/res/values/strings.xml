@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">ChatApp</string>
-    <string name="Iniciar_Sesion">Iniciar Sesion</string>
+    <string name="Iniciar_Sesion">Iniciar Sesión</string>
     <string name="Registrarse">Registrarse</string>
+    <string name="Enviar">Enviar</string>
+    <string name="Mensaje">Mensaje</string>
+    <string name="Email">Correo Electrónico</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Bienvenido">Bienvenido a</string>
+
 
 </resources>

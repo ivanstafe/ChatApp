@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="email"
+            android:hint="@string/Email"
             android:inputType="textEmailAddress"
             android:textColorHint="#4D000000" />
 
@@ -36,7 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="password"
+            android:hint="@string/Contraseña"
             android:inputType="textPassword"
             android:textColorHint="#4D000000" />
 

@@ -34,7 +34,7 @@
         android:layout_width="185dp"
         android:layout_height="61dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Bienvenido a "
+        android:text="@string/Bienvenido"
         android:textColor="#B2000000"
         android:textColorHint="#0B0A0A"
         android:textSize="25sp"
