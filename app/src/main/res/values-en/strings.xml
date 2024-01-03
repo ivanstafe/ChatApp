@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="Iniciar_Sesion">Login</string>
+    <string name="Registrarse">SignUp</string>
+    <string name="Enviar">Send</string>
+    <string name="Mensaje">Message</string>
+    <string name="Email">Email</string>
+    <string name="Contraseña">Password</string>
+    <string name="Bienvenido">Welcome to</string>
+    <string name="Registro_exitoso">Successful Registration!</string>
+    <string name="Error_al_registrarse">Error Registering</string>
+    <string name="Bienvenido_nuevamente">Welcome back!</string>
+    <string name="Error">An error has occurred</string>
+    <string name="Mensaje_enviado">Message sent</string>
+
+
+</resources>
